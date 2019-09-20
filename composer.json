@@ -1,0 +1,44 @@
+{
+  "name": "rsavinkov/hangman-game",
+  "type": "project",
+  "description": "Hangman game. It's just example of my code.",
+  "keywords": [
+    "rsavinkov",
+    "hangman-game"
+  ],
+  "homepage": "https://github.com/rsavinkov/hangman-game",
+  "authors": [
+    {
+      "name": "Roman Savinkov",
+      "email": "r.savinkov@gmail.com",
+      "homepage": "https://github.com/rsavinkov",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~7.1",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-redis": "*",
+    "predis/predis": "^1.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "rsavinkov\\HangmanGame\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "rsavinkov\\HangmanGame\\tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
