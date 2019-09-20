@@ -2,7 +2,7 @@
 
 Hangman game. It's just example of my code.
 
-###Structure:
+### Structure:
 - `/config` - some environment variables, for example: redis config
 - `/public` - entry-points
 - `/src/Controller` - controllers, individual folder for each endpoint
@@ -28,7 +28,7 @@ Hangman game. It's just example of my code.
 
 ## Available Endpoints
 
-####Create Game
+#### Create Game
 `POST http://localhost:4201/create_game.php`
 ```
 "word":"test" // word for game
@@ -41,7 +41,7 @@ Response
 }
 ```
 
-####Get Game
+#### Get Game
 `GET http://localhost:4201/get_game.php?gameKey=5d846a1999cd4`
 
 Response
