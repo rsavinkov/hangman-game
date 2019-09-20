@@ -2,6 +2,8 @@
 
 Hangman game. It's just example of my code.
 
+About [Hangman game](https://en.wikipedia.org/wiki/Hangman_\(game\))
+
 ### Structure:
 - `/config` - some environment variables, for example: redis config
 - `/public` - entry-points
